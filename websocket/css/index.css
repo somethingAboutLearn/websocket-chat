@@ -1,0 +1,125 @@
+/*Default Style*/
+html, body, section, input, button, textarea, h2, div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input, button, textarea {
+    outline: none;
+    border: none;
+}
+
+button {
+    background-color: #fff;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    background-color: #000;
+}
+
+
+
+/* enter name */
+.user-name {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    max-width: 300px;
+    width: 80%;
+    height: 40px;
+    line-height: 1;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 4px #fff;
+    background-color: #fff;
+}
+
+.user-name input {
+    width: 100%;
+    height: 100%;
+    padding: 6px 0 6px 20px;
+}
+
+.user-name button {
+    padding: 6px 20px;
+    border-left: 1px solid #dfdfdf;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.user-name button:hover {
+    color: #46bd87;
+}
+
+
+
+/* char */
+.char {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.title {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    background-color: #46bd87;
+    color: #fff;
+    text-align: center;
+}
+
+.wall {
+    width: 100%;
+    flex-grow: 1;
+    padding: 12px;
+    background-color: #f2f2f2;
+    overflow-y: scroll;
+}
+
+.msg {
+    display: flex;
+    width: 100%;
+    padding: 6px 0;
+}
+
+.my {
+    text-align: right;
+}
+
+.enter {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    resize: none;
+}
+
+.send {
+    width: 60px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 6px;
+    background-color: #46bd87;
+    color: #fff;
+}
+
+
+/* hidden*/
+.hidden {
+    display: none;
+}
